@@ -2,3 +2,31 @@ name: MoonLightedPlugin
 version: '1.0-SNAPSHOT'
 main: io.github.ninathedev.MoonLightedPlugin.MoonLightedPlugin
 api-version: '1.20'
+permissions:
+  moonlightedplugin.randomfact:
+    description: "The ability to get a random fun fact."
+    default: not op
+  moonlightedplugin.thing:
+    description: "thing."
+    default: not op
+commands:
+  randomfact:
+    description: "You get a random fun fact."
+    usage: "/command <arg>"
+    permission: moonlightedplugin.randomfact
+    permission-message: "You do not have permission to use this command"
+  thingenable:
+    description: "do not ask questions"
+    usage: "/command <arg>"
+    permission: moonlightedplugin.thing
+    permission-message: "You do not have permission to use this command"
+  thingdisable:
+    description: "do not ask questions"
+    usage: "/command <arg>"
+    permission: moonlightedplugin.thing
+    permission-message: "You do not have permission to use this command"
+  selfkill:
+    description: "kills yourself"
+    usage: "/command <arg>"
+    permission: moonlightedplugin.thing
+    permission-message: "You do not have permission to use this command"
