@@ -1,0 +1,4 @@
+name: MoonLightedPlugin
+version: '1.0-SNAPSHOT'
+main: io.github.ninathedev.MoonLightedPlugin.MoonLightedPlugin
+api-version: '1.20'
